@@ -1,0 +1,96 @@
+
+# Report Tax Type Enum
+
+See ReportTaxTypes
+
+## Enumeration
+
+`ReportTaxTypeEnum`
+
+## Fields
+
+| Name |
+|  --- |
+| `AVALARA` |
+| `BASEXCLUDED` |
+| `CAPITALSALESOUTPUT` |
+| `CAPITALEXPENSESINPUT` |
+| `ECOUTPUT` |
+| `ECOUTPUTSERVICES` |
+| `ECINPUT` |
+| `ECACQUISITIONS` |
+| `EXEMPTEXPENSES` |
+| `EXEMPTINPUT` |
+| `EXEMPTOUTPUT` |
+| `GSTONIMPORTS` |
+| `INPUT` |
+| `INPUTTAXED` |
+| `MOSSSALES` |
+| `NONE` |
+| `NONEOUTPUT` |
+| `OUTPUT` |
+| `PURCHASESINPUT` |
+| `SALESOUTPUT` |
+| `EXEMPTCAPITAL` |
+| `EXEMPTEXPORT` |
+| `CAPITALEXINPUT` |
+| `GSTONCAPIMPORTS` |
+| `GSTONCAPITALIMPORTS` |
+| `REVERSECHARGES` |
+| `PAYMENTS` |
+| `INVOICE` |
+| `CASH` |
+| `ACCRUAL` |
+| `FLATRATECASH` |
+| `FLATRATEACCRUAL` |
+| `ACCRUALS` |
+| `TXCA` |
+| `SRCAS` |
+| `DSOUTPUT` |
+| `BLINPUT2` |
+| `EPINPUT` |
+| `IMINPUT2` |
+| `MEINPUT` |
+| `IGDSINPUT2` |
+| `ESN33OUTPUT` |
+| `OPINPUT` |
+| `OSOUTPUT` |
+| `TXN33INPUT` |
+| `TXESSINPUT` |
+| `TXREINPUT` |
+| `TXPETINPUT` |
+| `NRINPUT` |
+| `ES33OUTPUT` |
+| `ZERORATEDINPUT` |
+| `ZERORATEDOUTPUT` |
+| `DRCHARGESUPPLY` |
+| `DRCHARGE` |
+| `CAPINPUT` |
+| `CAPIMPORTS` |
+| `IMINPUT` |
+| `INPUT2` |
+| `CIUINPUT` |
+| `SRINPUT` |
+| `OUTPUT2` |
+| `SROUTPUT` |
+| `CAPOUTPUT` |
+| `SROUTPUT2` |
+| `CIUOUTPUT` |
+| `ZROUTPUT` |
+| `ZREXPORT` |
+| `ACC28PLUS` |
+| `ACCUPTO28` |
+| `OTHEROUTPUT` |
+| `SHOUTPUT` |
+| `ZRINPUT` |
+| `BADDEBT` |
+| `OTHERINPUT` |
+
+## Example
+
+```php
+use XeroAccountingAPILib\Models\ReportTaxTypeEnum;
+
+$reportTaxType = ReportTaxTypeEnum::ECOUTPUT;
+```
+
